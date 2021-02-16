@@ -44,9 +44,14 @@ Be sure your GPX file contains a single line representing a track or it will sho
 
 You now have an IMG file for your device! It will appear as a map on Garmin devices. 
 
-## OpenTopo Garmin IMG files (Free)
+## Free data sources for pre-created IMG files 
+### OpenTopo Garmin IMG files
 
 Routable and free, these almost rival the paid-Garmin maps using the OpenStreetMap and Shuttle Radar Topography Mission DEM data! File sizes are large but work very fast, and are routable (relatively, Garmin MapSource works better). 
 
 https://garmin.opentopomap.org/#north_america
 
+### Ibycus
+Geogratis Website (The BNDT dataset) (? Department of Natural Resources Canada. All rights reserved). This is essentially the data you get on the government issue 1:50,000 topo maps. The original source has been removed and you need to download it via torrent, but can easily find other sources online. 
+
+http://www.ibycus.com/ibycustopo/ (download ISO from Google Drive: https://drive.google.com/file/d/0B_OuRuvqYnudZGRJZVFra3VsT0k/view)
