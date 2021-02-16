@@ -31,10 +31,22 @@ Be sure your GPX file contains a single line representing a track or it will sho
 1. Open the GPX file in GPSMapEdit
 1. With the GPX file open, go to File then Map Properties pull-down. 
 1. On Header tab:
-  1. Set the Type set to Garmin
-  1. Set a unique 8-digit ID (numeric)
-  1. Set a name (spaces ok)
+    1. Set the Type set to Garmin
+    1. Set a unique 8-digit ID (numeric)
+    1. Set a name (spaces ok)
 1. On Levels tab:
-  1. Insert Before 4 times to have 5 levels.
-  1. Change each to have "bits" and "MapSource zoom" to levels that correspond. 
-1. Go to Levels tab
+    1. Insert Before 4 times to have 5 levels.
+    1. Change each to have "bits" and "MapSource zoom" to levels that correspond. You must apply before the MapSource zoom range is editable (bug?)
+    1. Set the Map is Transparent on  cGpsMapper tab. Apply and Close map properties
+1. Select all TrackLogs on map (which GPX is imported as). Then right-click and convert to polyline. Select an appropriate type (walkway, road, etc)
+1. File, Save As.. your "polish format" map. 
+1. File, Export Garmin IMG then name your IMG file. Then locate your C:\Program Files (x86)\cGPSmapper\cgpsmapper.exe file and click Run. 
+
+You now have an IMG file for your device! It will appear as a map on Garmin devices. 
+
+## OpenTopo Garmin IMG files (Free)
+
+Routable and free, these almost rival the paid-Garmin maps using the OpenStreetMap and Shuttle Radar Topography Mission DEM data! File sizes are large but work very fast, and are routable (relatively, Garmin MapSource works better). 
+
+https://garmin.opentopomap.org/#north_america
+
