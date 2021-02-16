@@ -1,4 +1,4 @@
-# GPS/GNSS and Garmin Data FAQ
+# GPS/GNSS and Garmin IMG FAQ
 There are various GPS formats supported by various Garmin and other GNSS devices. Here are some tips, tricks and frequently asked questions on how to work with them. 
 I work with:
 * Bad Elf Surveyor and Pro (https://bad-elf.com/pages/compare)
