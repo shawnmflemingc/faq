@@ -51,7 +51,7 @@ Routable and free, these almost rival the paid-Garmin maps using the OpenStreetM
 
 https://garmin.opentopomap.org/#north_america
 
-### Ibycus
-Geogratis Website (The BNDT dataset) (? Department of Natural Resources Canada. All rights reserved). This is essentially the data you get on the government issue 1:50,000 topo maps. The original source has been removed and you need to download it via torrent, but can easily find other sources online. 
+### Ibycus Canada Topgraphic IMG
+Data sourced from Canada's Geogratis Website (The BNDT dataset from Department of Natural Resources Canada). This is essentially the data you get on the government issue 1:50,000 topo maps. The original source has been removed and you need to download it via torrent, but can easily find other sources online. 
 
 http://www.ibycus.com/ibycustopo/ (download ISO from Google Drive: https://drive.google.com/file/d/0B_OuRuvqYnudZGRJZVFra3VsT0k/view)
