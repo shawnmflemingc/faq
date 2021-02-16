@@ -1,15 +1,5 @@
 # GPS/GNSS and Garmin IMG FAQ
-There are various GPS formats supported by various Garmin and other GNSS devices. Here are some tips, tricks and frequently asked questions on how to work with them. 
-I work with:
-* Bad Elf Surveyor and Pro (https://bad-elf.com/pages/compare)
-* Trimble Nomad
-* Garmin eTrex (yellow [original], blue [legend])
-* Garmin GPSMAP 66s
-* Garmin Dakota 20
-* Garmin Fenix 3hr
-* Garmin Nuvi, Drivesmart
-* Garmin Striker 4 and 4cv+
-* Internal GPS on various smartphones
+There are various GPS formats supported by various Garmin and other GNSS devices. Here are some tips, tricks and frequently asked questions on how to work with files particularly creating and obtaining free IMG files. 
 
 ## GeoJSON to GPX
 Handheld devices accept GPX files. GeoJSON is a common GIS format and can be created, tested and edited using https://geojson.io. 
