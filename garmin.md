@@ -45,6 +45,13 @@ Be sure your GPX file contains a single line representing a track or it will sho
 You now have an IMG file for your device! It will appear as a map on Garmin devices. 
 
 ## Free data sources for pre-created IMG files 
+
+### OpenStreetMap
+
+Generate an IMG file for anyplace on earth. The maps are meant to be generic and will probably provide best routing results for car-drivers, however other routing options should work reasonably well too.
+
+http://garmin.openstreetmap.nl/
+
 ### OpenTopo Garmin IMG files
 
 Routable and free, these almost rival the paid-Garmin maps using the OpenStreetMap and Shuttle Radar Topography Mission DEM data! File sizes are large but work very fast, and are routable (relatively, Garmin MapSource works better). 
