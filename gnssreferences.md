@@ -19,3 +19,4 @@ GPS: https://en.wikipedia.org/wiki/Global_Positioning_System
 
 Galileo: https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)
 
+How GPS Works: https://gisgeography.com/trilateration-triangulation-gps/
