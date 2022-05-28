@@ -1,3 +1,7 @@
+# Installing Geopy with ArcGIS Pro install
+
+## Create and use new environment for this install (not recommended to use ArcPY environments)
+
 ```console 
 conda create --name geopyenv
 ```
@@ -20,6 +24,8 @@ Proceed ([y]/n)? y
 ```console 
 activate geopyenv
 ```
+
+## Install Geopy using conda
 
 ```console 
 conda install -c conda-forge geopy
@@ -48,18 +54,24 @@ geopy-2.2.0-py 100% |###############################| Time: 0:00:00   2.20 MB/s
 setuptools-62. 100% |###############################| Time: 0:00:00   2.97 MB/s
 pip-22.1.1-pyh 100% |###############################| Time: 0:00:00   3.09 MB/s
 
+## Install ipykernel to use Juptyer Notebooks in VSCode
 
 ```console 
 conda install -n geopyenv ipykernel --update-deps
 ```
 
+## Install ipython_genutils to use Juptyer Notebooks in VSCode
+
 ```console 
 conda install -c anaconda ipython_genutils
 ```
 
+## Required by geopy libraries but not installed with it
+
 ```console 
 conda install -c anaconda urllib3
 ```
+## Update the openssl environment to newer (do this AFTER urllib3)
 
 ```console 
 conda install -c anaconda openssl
