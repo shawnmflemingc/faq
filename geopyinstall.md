@@ -18,9 +18,9 @@ Proceed ([y]/n)? y
 # * for power-users using bash, you must source
 #
 
->activate geopyenv
+`activate geopyenv`
 
->conda install -c conda-forge geopy
+`conda install -c conda-forge geopy`
 
 Fetching package metadata ...............
 Solving package specifications: .
