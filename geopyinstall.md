@@ -1,6 +1,7 @@
 # Installing Geopy into a new environment on ArcGIS Pro Python install
 
->conda create --name geopyenv
+`conda create --name geopyenv
+`
 
 Fetching package metadata .............
 Solving package specifications:
@@ -18,9 +19,11 @@ Proceed ([y]/n)? y
 # * for power-users using bash, you must source
 #
 
-`activate geopyenv`
+`activate geopyenv
+`
 
-`conda install -c conda-forge geopy`
+`conda install -c conda-forge geopy
+`
 
 Fetching package metadata ...............
 Solving package specifications: .
@@ -47,11 +50,14 @@ setuptools-62. 100% |###############################| Time: 0:00:00   2.97 MB/s
 pip-22.1.1-pyh 100% |###############################| Time: 0:00:00   3.09 MB/s
 
 
->conda install -n geopyenv ipykernel --update-deps
+`conda install -n geopyenv ipykernel --update-deps
+`
 
->conda install -c anaconda ipython_genutils
+`conda install -c anaconda ipython_genutils
+`
 
->conda install -c anaconda openssl
+`conda install -c anaconda openssl
+`
 
 
 
