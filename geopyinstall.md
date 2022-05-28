@@ -12,15 +12,15 @@ Package plan for installation in environment C:\Users\shawnm\AppData\Local\ESRI\
 
 Proceed ([y]/n)? y
 
-#
-# To activate this environment, use:
-# > activate geopyenv
-#
-# To deactivate an active environment, use:
-# > deactivate
-#
-# * for power-users using bash, you must source
-#
+
+ To activate this environment, use:
+ > activate geopyenv
+
+ To deactivate an active environment, use:
+ > deactivate
+
+ * for power-users using bash, you must source
+
 ```console 
 activate geopyenv
 ```
