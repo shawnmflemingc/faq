@@ -1,4 +1,6 @@
->conda create --name geopyenv
+```console 
+conda create --name geopyenv
+```
 
 Fetching package metadata .............
 Solving package specifications:
@@ -15,11 +17,13 @@ Proceed ([y]/n)? y
 #
 # * for power-users using bash, you must source
 #
+```console 
+activate geopyenv
+```
 
->activate geopyenv
-
->conda install -c conda-forge geopy
-
+```console 
+conda install -c conda-forge geopy
+```
 Fetching package metadata ...............
 Solving package specifications: .
 
@@ -55,6 +59,7 @@ conda install -c anaconda ipython_genutils
 
 ```console 
 conda install -c anaconda urllib3
+```
 
 ```console 
 conda install -c anaconda openssl
