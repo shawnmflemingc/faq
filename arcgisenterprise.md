@@ -21,3 +21,4 @@ https://enterprise.arcgis.com/en/portal/latest/administer/windows/data-store-uti
 5. Use PGAdmin or ArcGIS pro to connect and see inside the underlying postgres datastore on TCP 9876. You can open and view spatial tables this way too. 
 6. The PostgreSQL Client Authentication Configuration File can be modified directly for remote access `\arcgisdatastore\pgdata\pg_hba.conf`
 
+Using the connections in ArcGIS Pro: `agename,9876` for the DataStore
