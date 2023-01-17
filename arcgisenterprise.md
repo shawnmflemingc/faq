@@ -1,5 +1,15 @@
 # ArcGIS Enterprise administration ticks and tricks
 
+These require local administrative access to the machine. None of these instructions are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
+
+## Logging into the Postgres database powering Portal's item catalog and configuration
+
+This is not supported by esri. 
+
+1. The username and password will be the same user initially created to deploy the portal. Usually this is the administrator. 
+2. The postgres is running on TCP 7654. 
+3. Configuration for the postgres is located at `C:\AGE\arcgisportal\db`. The PostgreSQL Client Authentication Configuration File `C:\AGE\arcgisportal\db\pg_hba.conf`
+
 ## Logging into the Postgres database powering the backend ArcGIS DataStore
 
 https://enterprise.arcgis.com/en/portal/latest/administer/windows/data-store-utility-reference.htm
