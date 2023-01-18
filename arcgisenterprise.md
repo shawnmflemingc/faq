@@ -3,10 +3,12 @@
 ## Installation of Portal tricks to avoid DNS problems
 
 From https://enterprise.arcgis.com/en/portal/latest/install/windows/installing-portal-for-arcgis.htm:
-Create `C:\AGE\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
-Modify `C:\AGE\ArcGIS\Portal\framework\runtime\ds\framework\etc\hostidentifier.properties` uncomment and set `hostidentifier=` to DNS name
+Create `C:\Dir\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
+Modify `C:\Dir\ArcGIS\Portal\framework\runtime\ds\framework\etc\hostidentifier.properties` uncomment and set `hostidentifier=` to DNS name
 
-Follow same for ArcGIS Server https://enterprise.arcgis.com/en/server/latest/deploy/windows/multiple-nic-cards-dns-entries.htm and Data Store https://enterprise.arcgis.com/en/portal/latest/administer/windows/create-data-store.htm#ESRI_SECTION2_0959726881944C3483C5DF63FBE1553A
+Copy same hostname.properties file in both ArcGIS Server (C:\Dir\ArcGIS\framework\etc) and DataStore (C:\Dir\ArcGIS\DataStore\framework\etc)
+
+From ArcGIS Server https://enterprise.arcgis.com/en/server/latest/deploy/windows/multiple-nic-cards-dns-entries.htm and Data Store https://enterprise.arcgis.com/en/portal/latest/administer/windows/create-data-store.htm#ESRI_SECTION2_0959726881944C3483C5DF63FBE1553A
 
 These following items require local administrative access to the machine. 
 None of the settings are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
