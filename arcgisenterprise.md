@@ -2,6 +2,8 @@
 
 ## Installation of Portal tricks to avoid DNS problems
 
+It is common for a server to have an "internal" name and a separate and different DNS name. This can cause problems in installation of an ArcGIS Enterprise Base Deployment. To solve it, you can force the external DNS name before configuring items when installing. The portal component cannot be changed after install, so best do that one without question, where the others' are changable later. But, you can configure them all and be done!
+
 From https://enterprise.arcgis.com/en/portal/latest/install/windows/installing-portal-for-arcgis.htm:
 Create `C:\Dir\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
 Modify `C:\Dir\ArcGIS\Portal\framework\runtime\ds\framework\etc\hostidentifier.properties` uncomment and set `hostidentifier=` to DNS name
