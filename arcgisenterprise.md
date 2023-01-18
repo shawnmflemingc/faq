@@ -3,7 +3,8 @@
 ## Installation of Portal tricks to avoid DNS problems
 
 From https://enterprise.arcgis.com/en/portal/latest/install/windows/installing-portal-for-arcgis.htm:
-add `C:\AGE\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
+Create `C:\AGE\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
+Modify `C:\AGE\ArcGIS\Portal\framework\runtime\ds\framework\etc\hostidentifier.properties` uncomment and set `hostidentifier=` to DNS name
 
 These require local administrative access to the machine. None of these instructions are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
 
