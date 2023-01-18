@@ -8,7 +8,8 @@ Modify `C:\AGE\ArcGIS\Portal\framework\runtime\ds\framework\etc\hostidentifier.p
 
 Follow same for ArcGIS Server https://enterprise.arcgis.com/en/server/latest/deploy/windows/multiple-nic-cards-dns-entries.htm and Data Store https://enterprise.arcgis.com/en/portal/latest/administer/windows/create-data-store.htm#ESRI_SECTION2_0959726881944C3483C5DF63FBE1553A
 
-These require local administrative access to the machine. None of these instructions are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
+These following items require local administrative access to the machine. 
+None of the settings are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
 
 ## Logging into the Postgres database powering Portal's item catalog and configuration
 
