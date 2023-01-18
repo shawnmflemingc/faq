@@ -1,7 +1,8 @@
 # ArcGIS Enterprise administration ticks and tricks
 
-## Installation of Portal
+## Installation of Portal tricks to avoid DNS problems
 
+From https://enterprise.arcgis.com/en/portal/latest/install/windows/installing-portal-for-arcgis.htm:
 add `C:\AGE\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
 
 These require local administrative access to the machine. None of these instructions are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
