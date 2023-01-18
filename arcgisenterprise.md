@@ -1,5 +1,9 @@
 # ArcGIS Enterprise administration ticks and tricks
 
+## Installation of Portal
+
+add `C:\AGE\ArcGIS\Portal\framework\etc\hostname.properties` with entry `hostname=full.dns.name` to override it using the machine name
+
 These require local administrative access to the machine. None of these instructions are sanctioned by Esri and most are unsupported -- DO SO AT YOUR OWN RISK. 
 
 ## Logging into the Postgres database powering Portal's item catalog and configuration
