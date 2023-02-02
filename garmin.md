@@ -1,6 +1,12 @@
 # GPS/GNSS and Garmin IMG FAQ
 There are various GPS formats supported by various Garmin and other GNSS devices. Here are some tips, tricks and frequently asked questions on how to work with files particularly creating and obtaining free IMG files. 
 
+## Software to manage data on GPS:
+
+DNRGPS is an Open Source update to the popular DNRGarmin application. It provides users the ability to transfer data between handheld GPS receivers and GIS software. 
+
+https://maps1.dnr.state.mn.us/dnrgps/index.html
+
 ## GeoJSON to GPX
 Handheld devices accept GPX files. GeoJSON is a common GIS format and can be created, tested and edited using https://geojson.io. 
 
