@@ -22,7 +22,9 @@ This is not supported by esri.
 
 1. The username and password will be the same user initially created to deploy the portal. Usually this is the administrator. 
 2. The postgres is running on TCP 7654. 
-3. Configuration for the postgres is located at `C:\AGE\arcgisportal\db`. The PostgreSQL Client Authentication Configuration File `C:\AGE\arcgisportal\db\pg_hba.conf`
+3. Configuration for the postgres is located at `C:\AGE\arcgisportal\db`. The PostgreSQL Client Authentication Configuration File `C:\AGE\arcgisportal\db\pg_hba.conf` if needed to access off the computer.
+
+Once logged in, database: gwdb, then Schemas, Public, and locate Tables. gw_items contains the list of items. 
 
 ## Logging into the Postgres database powering the backend ArcGIS DataStore
 
