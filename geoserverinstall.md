@@ -47,12 +47,17 @@ Restart IIS
 Geoserver CSRF Whitelist edit to avoid security 403 errors using IIS passthru
 Edit "C:\Geoserver\tomcat9\webapps\geoserver\WEB-INF\web.xml"
 
-After   
+In section with   
 
 `<context-param>`
 
 add
 ```
-	  <param-name>GEOSERVER_CSRF_WHITELIST</param-name>
-	  <param-value>DOMAINNAME.COM</param-value>
+<context-param>
+	<param-name>GEOSERVER_CSRF_WHITELIST</param-name>
+	<param-value>DOMAINNAME.COM</param-value>
+</context-param>
 ```
+### Enable CORS for Tomcat
+
+Uncomment two other sections within web.xml to enable CORS wildcard.
