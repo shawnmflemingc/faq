@@ -44,6 +44,8 @@ Restart IIS
 
 ### Tell Geoserver about the domain to be used. 
 
+Add proxy base using web admin interface under global settings. 
+
 Geoserver CSRF Whitelist edit to avoid security 403 errors using IIS passthru
 Edit "C:\Geoserver\tomcat9\webapps\geoserver\WEB-INF\web.xml"
 
