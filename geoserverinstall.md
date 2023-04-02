@@ -15,7 +15,7 @@ URL is http://localhost:8080/manager/html
 
 Download Geoserver: https://geoserver.org/release/stable/ (WAR version 2.22.2)
 
-Extract ZIP and copy WAR file to $CATALINA_BASE/webapps and it will automatically deploy
+Extract ZIP and copy WAR file to `$CATALINA_BASE/webapps` and it will automatically deploy
 
 Check that it is running in tomcat manager (after a few minutes)
 
@@ -39,8 +39,8 @@ Restart IIS
 1. Open IIS Manager from Start menu
 2. On server name Open Application Request Routing Enable proxy
 3. Back to server name in IIS, Open URL Rewrite
-4. Add new inbound rule with match pattern (geoserver/.*)
-5. Rewrite URL: http://localhost:8080/{R:0}
+4. Add new inbound rule with match pattern `(geoserver/.*)`
+5. Rewrite URL: `http://localhost:8080/{R:0}`
 
 ### Tell Geoserver about the domain to be used. 
 
@@ -49,9 +49,10 @@ Edit "C:\Geoserver\tomcat9\webapps\geoserver\WEB-INF\web.xml"
 
 After   
 
-<context-param>
+`<context-param>`
 
 add
+```
 	  <param-name>GEOSERVER_CSRF_WHITELIST</param-name>
 	  <param-value>DOMAINNAME.COM</param-value>
-
+```
