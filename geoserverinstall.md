@@ -26,7 +26,7 @@ Perform hardening as is: https://docs.geoserver.org/latest/en/user/installation/
 
 Change Geoserver admin password using web interface (security/users/admin change)
 
-Now Geoserver is running locally (8080). 
+Now Geoserver is running locally (8080) as http. 
 
 ## Configure redirect on IIS
 
@@ -36,6 +36,7 @@ Install https://www.iis.net/downloads/microsoft/application-request-routing
 Install https://www.iis.net/downloads/microsoft/url-rewrite
 
 Restart IIS
+
 1. Open IIS Manager from Start menu
 2. On server name Open Application Request Routing Enable proxy
 3. Back to server name in IIS, Open URL Rewrite
@@ -47,7 +48,7 @@ Restart IIS
 Add proxy base using web admin interface under global settings. 
 
 Geoserver CSRF Whitelist edit to avoid security 403 errors using IIS passthru
-Edit "C:\Geoserver\tomcat9\webapps\geoserver\WEB-INF\web.xml"
+Edit `\webapps\geoserver\WEB-INF\web.xml`
 
 In section with   
 
