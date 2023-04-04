@@ -30,6 +30,8 @@ Change Geoserver admin password using web interface (security/users/admin change
 
 Now Geoserver is running locally (8080) as http. 
 
+Turn off autodeploy, edit `C:\Geoserver\tomcat9\conf\server.xml` and modify `autoDeploy="false"`
+
 ## Configure redirect on IIS
 
 Assumes IIS is already running with valid cert. 
