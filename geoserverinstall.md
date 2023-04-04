@@ -1,5 +1,7 @@
 # Geoserver Install Basics (Servlet on Windows)
 
+Summary from https://www.youtube.com/watch?v=7bbq3gWEXI8
+
 ## Getting Tomcat 9 running
 
 Install JRE: https://jdk.java.net/java-se-ri/11 (JRE version)
