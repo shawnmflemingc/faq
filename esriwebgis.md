@@ -1,6 +1,8 @@
 # Modern GIS is Web GIS: Teaching GIS Using ArcGIS Online Webinar | Resource Links and Documentation
 > A Presentation by Shawn Morgan -- Fleming College Professor and Program Coordinator.
 
+Presentation Slide Deck: [EsriWebGIS.pdf](EsriWebGIS.pdf)
+
 ## Youtube Videos Referenced:
 
 - Architecture of ArcGIS Online and ArcGIS Enterprise: https://youtu.be/UIejoY30P28 
