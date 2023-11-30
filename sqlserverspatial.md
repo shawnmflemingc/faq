@@ -56,10 +56,4 @@ The *geometry* data type in SQL Server is designed to store and process planar, 
   WHERE ID = 2;
   ```
 
-### 5. Visualizing the Data (Optional)
-- If you have a tool that can visualize these spatial types (like SSMS), show the shapes on a map.
-
-### 6. Conclusion
-- Briefly summarize the capabilities of SQL Server Spatial data types and their applications.
-
 This demonstration will give a concise yet comprehensive overview of how spatial data can be created, manipulated, and queried in SQL Server. Other database types are similar, particularly PostgreSQL/PostGIS. 
