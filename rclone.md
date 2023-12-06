@@ -1,6 +1,8 @@
 # Introducing rclone
 Rclone is free open source software that can copy or sync two file locations, where any changes will be moved between each. Install rclone by downloading it from [rclone's official website](https://rclone.org/downloads/). 
 
+There is no install, just put the rclone software someplace that you will remember. I put it in the directory `C:\cmds\rclone`. If this is not part of the windows path, you must use the full path in the command line. For example, `c:\cmds\rclone\rclone.exe -options'. 
+
 In `rclone`, the `sync` and `copy` commands are used for transferring files between file systems, but they operate differently:
 
 1. **Copy Command:**
@@ -19,7 +21,7 @@ In `rclone`, the `sync` and `copy` commands are used for transferring files betw
      - The destination becomes an exact mirror of the source after the operation.
    - **Use Case**: Ideal for maintaining an exact copy of a source folder. Use with caution, as it can result in data loss in the destination if files are removed from the source.
 
-In summary, `copy` is a safer option if you want to avoid accidentally deleting files in the destination, while `sync` is used for creating an exact replica of the source, which includes deleting files in the destination that are no longer present in the source.
+The `copy` option is a safer option if you want to avoid accidentally deleting files in the destination, while `sync` is used for creating an exact replica of the source, which includes deleting files in the destination that are no longer present in the source.
 
 ## Using `rclone` to Copy from a USB key or drive to your personal computer:
 
@@ -27,19 +29,14 @@ Using `rclone` to copy data from a USB key to your hard drive is quite straightf
 
 1. **Identify your USB Key and Hard Drive Paths:**
    - Plug in your USB key.
-   - Identify the mount path of your USB key and the destination path on your hard drive. This can be done using a file manager or command line tools. For example, the USB key might be mounted at `E:\` (Windows) or `/media/usbkey` (Linux), and you might want to copy files to `C:\Users\YourName\DestinationFolder` (Windows) or `/home/yourname/destinationfolder` (Linux).
+   - Identify the mount path of your USB key and the destination path on your hard drive. This can be done using a file manager or command line tools. For example in Windows, the USB key might be mounted at `E:\`, and you might want to copy files to `C:\Users\YourName\DestinationFolder`.
 
 2. **Open a Command Line Interface:**
-   - On Windows, open Command Prompt or PowerShell.
-   - On macOS or Linux, open Terminal.
+   - On Windows, open Command Prompt or PowerShell. Type "command" in the start menu to start this.
 
 3. **Run the rclone copy command:**
    - The basic syntax for the rclone copy command is `rclone copy source:path dest:path`.
-   - For example, if your USB key is mounted at `/media/usbkey` and you want to copy its contents to a folder at `/home/yourname/destinationfolder`, the command would be:
-     ```
-     rclone copy /media/usbkey /home/yourname/destinationfolder
-     ```
-   - If you're using Windows and your USB key is on `E:\` and you want to copy to `C:\Users\YourName\DestinationFolder`, the command would be:
+   - For example, if your USB key is mounted at `E:\` and you want to copy its contents to a folder at `C:\Users\YourName\DestinationFolder`, the command would be:
      ```
      rclone copy E:\ C:\Users\YourName\DestinationFolder
      ```
@@ -47,17 +44,19 @@ Using `rclone` to copy data from a USB key to your hard drive is quite straightf
 4. **Execute the Command:**
    - After typing the command, press Enter.
    - rclone will start copying the files from your USB key to the specified folder on your hard drive.
+   - You can do a dry run of this by adding the flag --dry-run at the end. This way you can see what it will do before it actually does it!
 
 5. **Verify the Copy:**
    - Once the process is complete, verify that the files have been copied to the destination folder.
+   - If using the dry run, actually do the command!
 
 Remember, these instructions are for a basic copy operation. rclone has many advanced features and options which you can explore in its documentation if needed.
 
-## Creating a batch file to sync a USB Key with OneDrive
+## Creating a batch file to sync a USB Key with OneDrive (or other cloud provider)
 
 Creating a Windows batch script to sync a local folder with a OneDrive account using `rclone` involves a few steps:
 
-### Prerequisites:
+### Prerequisites - set up the authentication:
 
 1. **Set up rclone with OneDrive**: 
    - Run `rclone config` in the command line.
@@ -105,7 +104,7 @@ Creating a Windows batch script to sync a local folder with a OneDrive account u
 
 - The `pause` command at the end keeps the command window open so you can see any messages or errors after the sync completes.
 
-## Best Practices
+## Best Practices and Tips
 
 Using `rclone` effectively and safely involves following some best practices. These practices help ensure data integrity, security, and efficient operation:
 
