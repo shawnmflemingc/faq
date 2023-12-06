@@ -91,7 +91,7 @@ Creating a Windows batch script to sync a local folder with a OneDrive account u
     pause
     ```
 
-    Replace `C:\path\to\rclone.exe` with the actual path to your `rclone.exe`. Adjust `LOCAL_PATH` and `REMOTE_PATH` with your local folder path and OneDrive folder path, respectively.
+    Replace `C:\path\to\rclone.exe` with the actual path to your `rclone.exe`. Adjust `LOCAL_PATH` and `REMOTE_PATH` with your local folder path and OneDrive folder path, respectively. To get all of the OneDrive, do not specify anything after the :. So the batch line for this above be `set "REMOTE_PATH=onedrive:"`. Thsi would copy everything from your local path to the root of the OneDrive. 
 
 3. Save the file with a `.bat` extension, for example, `OneDriveSync.bat`.
 
