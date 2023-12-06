@@ -115,46 +115,26 @@ Using `rclone` effectively and safely involves following some best practices. Th
 2. **Test with Small Data Sets First:**
    - Before running large or important syncs, test your commands with a small, non-critical dataset to ensure they work as expected.
 
-3. **Regularly Update rclone:**
-   - Keep rclone updated to benefit from the latest features, bug fixes, and security patches.
-
-4. **Use Verbose or Dry-Run Modes for Troubleshooting:**
+3. **Use Verbose or Dry-Run Modes for Troubleshooting:**
    - Use the `--dry-run` or `--verbose` flag to test your commands without making any changes. This helps in understanding what rclone will do.
 
-5. **Check Bandwidth Usage:**
+4. **Check Bandwidth Usage:**
    - Be mindful of bandwidth usage, especially if you have a limited internet plan. Use the `--bwlimit` flag to limit bandwidth usage.
 
-6. **Configure Filters Appropriately:**
+5. **Configure Filters Appropriately:**
    - Use filters to include or exclude specific files or directories. Carefully check your filter rules to avoid syncing unwanted files.
+   - Be aware of the rate limits and API quotas of your storage provider to avoid hitting these limits.
 
-7. **Monitor Log Files:**
-   - Keep log files for your transfers (using `--log-file` option), especially for automated scripts. This helps in troubleshooting and audit trails.
-
-8. **Secure Your Config File:**
+6. **Secure Your Config File:**
    - The rclone config file contains sensitive information. Secure it by setting appropriate file permissions and consider using the `--password-command` feature for additional security.
 
-9. **Use Crypt for Sensitive Data:**
+7. **Use Crypt for Sensitive Data:**
    - If you're syncing sensitive data, consider using rclone’s crypt feature to encrypt files before uploading.
 
-10. **Understand the Limits of Your Storage Provider:**
-    - Be aware of the rate limits and API quotas of your storage provider to avoid hitting these limits.
-
-11. **Automate and Schedule Backups:**
+8. **Automate and Schedule Backups:**
     - For regular backups, automate and schedule your rclone tasks with cron jobs (Linux) or Task Scheduler (Windows).
 
-12. **Use the Latest Stable Version:**
-    - Always use the latest stable version of rclone for the best performance and security.
-
-13. **Backup Configuration Files:**
-    - Regularly back up your rclone configuration files, especially when you have complex setups.
-
-14. **Be Careful with Delete Operations:**
+9. **Be Careful with Delete Operations:**
     - Be very cautious with commands that delete data (`sync`, `delete`, etc.). Double-check the paths and flags to prevent accidental data loss.
-
-15. **Keep an Eye on Quotas:**
-    - Monitor your cloud storage quotas to avoid issues with storage limits.
-
-16. **Regularly Review Access Permissions:**
-    - Regularly review and audit the access permissions you have set on your cloud storage to ensure they remain secure and appropriate.
 
 Following these practices will help ensure that you use rclone effectively and safely, minimizing the risk of data loss or other issues.
