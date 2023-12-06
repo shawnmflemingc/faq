@@ -60,8 +60,11 @@ Creating a Windows batch script to sync a local folder with a OneDrive account u
 
 1. **Set up rclone with OneDrive**: 
    - Run `rclone config` in the command line.
-   - Follow the prompts to add a new remote of the type `OneDrive`.
-   - Complete the authentication process for OneDrive.
+   - Follow the prompts to add a new remote of the type `OneDrive` (#34 at the time of documentation).
+   - Don't provide a client id or secret. Just hit `Enter`.
+   - Select option 1 for Microsoft cloud global. 
+   - Complete the authentication process for OneDrive using a browser.
+   - Select 1 for the OneDrive Personal or Business. Select the option provided.
 
 2. **Identify Local and Remote Paths**: 
    - Decide the local folder path you want to sync (e.g., `C:\Users\YourName\LocalFolder`).
