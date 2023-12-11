@@ -46,7 +46,7 @@ You now have an IMG file for your device! It will appear as a map on Garmin devi
 
 Generate an IMG file for anyplace on earth. The maps are meant to be generic and will probably provide best routing results for car-drivers, however other routing options should work reasonably well too.
 
-http://garmin.openstreetmap.nl/
+https://garmin.bbbike.org
 
 ### OpenTopo Garmin IMG files
 
