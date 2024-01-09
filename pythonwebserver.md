@@ -46,7 +46,7 @@ Having your Python environment now you can run a web server:
 ### Step 4: Start Python HTTP Server
 - In your command prompt or terminal, run the following command (be sure to include the full path to the python.exe file):
   ```bash
-  "C:\Path\Program python.exe" -m http.server
+  "C:\Your\Path\python.exe" -m http.server
   ```
 - By default, this will host your website on port 8000. If you need to use a different port and want to use the default path for ArcGIS Pro's Python, you can specify it by adding the port number at the end of the command, like this:
   ```bash
