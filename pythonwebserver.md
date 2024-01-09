@@ -1,4 +1,4 @@
-# Using Pythong as a Web Server for Static Files
+# Using Python as a Web Server for Static Files
 
 To host a website from a specific directory using Python 3, you can use the built-in HTTP server module that comes with Python. This method is great for testing or development purposes but is not recommended for production use due to security and performance reasons.
 
