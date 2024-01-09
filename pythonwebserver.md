@@ -1,3 +1,5 @@
+# Using Pythong as a Web Server for Static Files
+
 To host a website from a specific directory using Python 3, you can use the built-in HTTP server module that comes with Python. This method is great for testing or development purposes but is not recommended for production use due to security and performance reasons.
 
 ### Using ArcGIS Pro's Python Install Directory
@@ -33,7 +35,7 @@ Having your Python environment now you can run a web server:
 - Make sure all your website files (HTML, CSS, JavaScript, images, etc.) are placed in the directory you want to serve. Let's say this directory is `C:\path\to\your\website`.
 
 ### Step 2: Open Command Prompt or Terminal
-- Open Command Prompt (Windows) or Terminal (macOS/Linux).
+- Open Command Prompt.
 
 ### Step 3: Navigate to Your Directory
 - Use the `cd` command to navigate to your website directory.
@@ -56,10 +58,9 @@ Having your Python environment now you can run a web server:
 - You should see your website served from the directory you specified.
 
 ### Notes:
-1. **Python Version**: This method requires Python 3. If you have multiple Python versions installed, you may need to use `python3` instead of `python` in the command.
-   
-2. **Security Warning**: The built-in Python HTTP server is not secure for production use. It's only intended for development and testing. If you plan to host a website publicly, consider using a proper web server or a hosting service.
+  
+1. **Security Warning**: The built-in Python HTTP server is not secure for production use. It's only intended for development and testing. If you plan to host a website publicly, consider using a proper web server or a hosting service.
 
-3. **Dynamic Content**: This server serves static files. If your website needs to handle dynamic content, you'll need a more complex setup, like a web framework (e.g., Flask or Django).
+2. **Dynamic Content**: This server serves static files. If your website needs to handle dynamic content, you'll need a more complex setup, like a web framework (e.g., Flask or Django).
 
 Remember, when you close the command prompt or terminal, the server will stop running. This is a simple and quick way to serve static files for testing or development purposes.
