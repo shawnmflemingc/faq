@@ -2,9 +2,9 @@
 
 To host a website from a specific directory using Python 3, you can use the built-in HTTP server module that comes with Python. This method is great for testing or development purposes but is not recommended for production use due to security and performance reasons.
 
-### Using ArcGIS Pro's Python Install Directory
+### Finding ArcGIS Pro's Python Install Directory
 
-ArcGIS Pro uses its own Python environment, which is typically a version of Python 3.x that's managed by the ArcGIS Pro application. To find the directory of the Python executable used by ArcGIS Pro, you can follow these steps:
+Typing "python" in command prompt likely will not work. You must use a full path to specify where python.exe is found. ArcGIS Pro uses its own Python environment, which is typically a version of Python 3.x that's managed by the ArcGIS Pro application and can be used for simple purposes like this. To find the directory of the Python executable used by ArcGIS Pro, you can follow these steps:
 
 1. **Open ArcGIS Pro**: Start ArcGIS Pro on your computer.
 
@@ -44,13 +44,13 @@ Having your Python environment now you can run a web server:
   ```
 
 ### Step 4: Start Python HTTP Server
-- In your command prompt or terminal, run the following command:
-  ```python
-  python -m http.server
+- In your command prompt or terminal, run the following command (be sure to include the full path to the python.exe file):
+  ```bash
+  "C:\Path\Program python.exe" -m http.server
   ```
-- By default, this will host your website on port 8000. If you need to use a different port, you can specify it by adding the port number at the end of the command, like this:
-  ```python
-  python -m http.server 8080
+- By default, this will host your website on port 8000. If you need to use a different port and want to use the default path for ArcGIS Pro's Python, you can specify it by adding the port number at the end of the command, like this:
+  ```bash
+  "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" -m http.server 8080
   ```
 
 ### Step 5: Access Your Website
