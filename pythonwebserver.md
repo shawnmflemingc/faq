@@ -38,7 +38,7 @@ Having your Python environment now you can run a web server:
 - Open Command Prompt (start menu then type in `Command Prompt`, or run `cmd`)
 
 ### Step 3: Navigate to Your Directory
-- Use the `cd` command to navigate to your website directory.
+- Use the `cd` command to navigate to your website directory. It is important to be in the correct directory since that is what will host your files. Check using `dir` to list the files in the current directory in command prompt.
   ```bash
   cd C:\path\to\your\website
   ```
@@ -48,7 +48,7 @@ Having your Python environment now you can run a web server:
   ```bash
   "C:\Your\Path\python.exe" -m http.server
   ```
-- By default, this will host your website on port 8000. If you need to use a different port and want to use the default path for ArcGIS Pro's Python, you can specify it by adding the port number at the end of the command, like this:
+- By default, this will host your website on port 8000 using the files located in the current directory. If you need to use a different port and want to use the default path for ArcGIS Pro's Python, you can specify it by adding the port number at the end of the command, like this:
   ```bash
   "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" -m http.server 8080
   ```
