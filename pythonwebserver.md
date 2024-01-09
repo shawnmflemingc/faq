@@ -35,7 +35,7 @@ Having your Python environment now you can run a web server:
 - Make sure all your website files (HTML, CSS, JavaScript, images, etc.) are placed in the directory you want to serve. Let's say this directory is `C:\path\to\your\website`.
 
 ### Step 2: Open Command Prompt or Terminal
-- Open Command Prompt.
+- Open Command Prompt (start menu then type in `Command Prompt`, or run `cmd`)
 
 ### Step 3: Navigate to Your Directory
 - Use the `cd` command to navigate to your website directory.
