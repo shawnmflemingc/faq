@@ -13,6 +13,8 @@ Change the Windows HOSTS to have the FQDN resolve without the . at the end.
 Create a hostname.properties file in `%Install%\ArcGIS\Server\framework\etc` and put a single line `hostname=interface.domain.com`
 https://enterprise.arcgis.com/en/server/latest/deploy/windows/multiple-nic-cards-dns-entries.htm
 
+Note this option does not require a fully qualified hostname and can just use the server name.
+
 ## Steps to have the certificates recreated
 
 1. Stop ArcGIS Server service
