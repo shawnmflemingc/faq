@@ -1,6 +1,41 @@
-# Workflow for Recording and Documenting Software Steps Using Screenshots in Word
+# Workflow for Recording and Documenting Software Steps Using Screenshots
 
-Capturing and documenting steps with screenshots in Word is an effective way to create a reference guide for repeating tasks later. Here's a step-by-step workflow, then a section for how to take screenshots using Windows 10 and 11, Android or iOS:
+## Table of Contents
+
+1. [Workflow for Recording and Documenting Software Steps Using Screenshots in Word](#workflow-for-recording-and-documenting-software-steps-using-screenshots)
+    - [1. Prepare Your Environment](#1-prepare-your-environment)
+    - [2. Take Screenshots of Each Step](#2-take-screenshots-of-each-step)
+    - [3. Insert Screenshots into Word](#3-insert-screenshots-into-word)
+    - [4. Organize and Format the Document](#4-organize-and-format-the-document)
+    - [5. Review and Edit](#5-review-and-edit)
+    - [6. Save and Back Up the Document](#6-save-and-back-up-the-document)
+    - [7. Test the Documentation](#7-test-the-documentation)
+    - [8. Distribute or Share](#8-distribute-or-share)
+
+2. [Windows 10 Saving What is on your Screen](#windows-10-saving-what-is-on-your-screen)
+    - [1. Using the Print Screen Key (PrtScn)](#1-using-the-print-screen-key-prtscn)
+    - [2. Using the Snipping Tool](#2-using-the-snipping-tool)
+    - [3. Using Windows + Shift + S (Snip & Sketch)](#3-using-windows--shift--s-snip--sketch)
+    - [4. Using the Windows + PrtScn Shortcut](#4-using-the-windows--prtscn-shortcut)
+    - [5. Tips for Effective Documentation](#5-tips-for-effective-documentation)
+
+3. [Windows 11 Screen Saving](#windows-11-screen-saving)
+    - [1. Windows 11 Snipping Tool (Enhanced)](#1-windows-11-snipping-tool-enhanced)
+    - [2. New Windows 11 Keyboard Shortcut](#2-new-windows-11-keyboard-shortcut)
+    - [3. Snip & Sketch (Part of Snipping Tool in Windows 11)](#3-snip--sketch-part-of-snipping-tool-in-windows-11)
+    - [4. Windows 11 Direct Integration with Clipboard History](#4-windows-11-direct-integration-with-clipboard-history)
+    - [5. Widgets and Improved Touch Gestures](#5-widgets-and-improved-touch-gestures)
+    - [6. Enhanced User Interface](#6-enhanced-user-interface)
+    - [7. Auto-Saving Screenshots](#7-auto-saving-screenshots)
+
+4. [Mobile Device Screen Shots](#mobile-device-screen-shots)
+    - [Screen Shots For iOS (iPhone or iPad)](#screen-shots-for-ios-iphone-or-ipad)
+    - [Screen Recording on iOS](#screen-recording-on-ios)
+    - [For Android](#for-android)
+
+---
+
+# General Steps:
 
 ## 1. **Prepare Your Environment**
    - **Open the Software:**
