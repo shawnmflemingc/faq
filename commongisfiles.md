@@ -10,11 +10,11 @@ When managing spatial data in GIS (Geographic Information Systems), understandin
   - Shapefiles are one of the most widely used formats for vector data in GIS. Developed by ESRI, they store geometric location and attribute information.
 
 - **Components:**
-  - A shapefile is not a single file but a set of files that work together. The key files include:
+  - A shapefile is not a single file but a set of files that work together. THEY MUST BE KEPT AND COPIED TOGETHER! The file name has MYFILENAME.shp where .shp can be any number of extensions. The manditory 3 files to make a shapefile work include:
     - `.shp` – Contains the geometry (points, lines, polygons).
     - `.shx` – Index file that allows quick access to the geometry.
     - `.dbf` – Attribute data, stored in a tabular format (similar to a spreadsheet).
-    - Other auxiliary files like `.prj` (projection information) may also be present.
+    - Other auxiliary files like `.prj` (projection information) may also be present in the MYFILENAME group, but are ok if they are missing (but keep all that share the same base filename together!).
 
 - **Advantages:**
   - Simple and widely supported across various GIS software.
@@ -23,6 +23,7 @@ When managing spatial data in GIS (Geographic Information Systems), understandin
 - **Limitations:**
   - Limited to handling only one type of geometry per file (e.g., points, lines, or polygons).
   - Attribute names are restricted to 10 characters.
+  - Filenames sometimes cannot be more than 8 characters (only older systems might have this problem).
   - No support for complex data types or relationships between datasets.
   - Limited to 2 GB in size, which can be a constraint for large datasets.
 
@@ -34,7 +35,7 @@ When managing spatial data in GIS (Geographic Information Systems), understandin
   - GeoPackage is a modern, open standard format for storing both vector and raster data in a single SQLite database file. It was developed by the Open Geospatial Consortium (OGC).
 
 - **Components:**
-  - Unlike shapefiles, GeoPackage is a single file (`.gpkg`) that can contain multiple layers of data, including points, lines, polygons, and raster images.
+  - Unlike shapefiles, GeoPackage is a single file (`.gpkg`) that can contain multiple layers of data, including points, lines, polygons, and raster images. Copying all the content is easy by just moving the one file.
   - It supports metadata, feature styles, and various spatial reference systems.
 
 - **Advantages:**
@@ -45,17 +46,17 @@ When managing spatial data in GIS (Geographic Information Systems), understandin
 
 - **Limitations:**
   - While increasingly supported, it may not be as universally compatible as shapefiles in some older GIS systems.
-  - More complex to manage compared to shapefiles.
+  - More complex to manage compared to shapefiles as you must open the GeoPackage in software to "manage" its individual layers and content.
 
 ---
 
 ## **3. ESRI File Geodatabase**
 
 - **What It Is:**
-  - The ESRI File Geodatabase (FileGDB) is a proprietary format developed by ESRI for storing, managing, and analyzing spatial data within the ArcGIS platform.
+  - The ESRI File Geodatabase (FileGDB) is a proprietary format developed by ESRI for storing, managing, and analyzing spatial data within the ArcGIS platform. File Geodatabases show up as a folder on your drive. It is similar to a GeoPackage in that it can contain multiple layers and datasets. To Copy/Move the Geodatabase outside of ArcGIS Pro, copy/Move the entire directory and do not modify/delete/copy the individual files within that directory. 
 
 - **Components:**
-  - A FileGDB is a folder that contains multiple files representing a comprehensive database. It can include various data types, such as vector data, raster data, tables, and relationships between data sets.
+  - A FileGDB is a folder that contains multiple files representing a comprehensive database. It can include various data types, such as vector data, raster data, tables, and relationships between data sets. You cannot modify a FileGDB using Windows and must use ArcGIS Pro. 
   - Supports complex data models, including topologies, networks, and relationships between different datasets.
 
 - **Advantages:**
@@ -93,7 +94,7 @@ Understanding these formats will help you choose the right tool for your GIS dat
   - It also includes feature collections, which are groups of geometry objects.
 
 - **Advantages:**
-  - Human-readable and easy to edit using a text editor.
+  - Human-readable and easy to edit using a text editor (Notepad++ is recommended).
   - Ideal for web applications due to its compatibility with web technologies.
   - Supports complex geometries and properties, allowing for detailed data representation.
   - Can be easily integrated with web mapping libraries like Leaflet and Mapbox.
@@ -127,7 +128,7 @@ Understanding these formats will help you choose the right tool for your GIS dat
 ## **3. CSV (Comma-Separated Values)**
 
 - **What It Is:**
-  - CSV is a simple text format used to store tabular data, where each line represents a record, and fields are separated by commas. In GIS, CSV files often contain point data, with columns for latitude and longitude coordinates.
+  - CSV is a simple text format used to store tabular data, where each line represents a record, and fields are separated by commas. In GIS, CSV files often contain point data, with columns for latitude and longitude coordinates, but the format is not exclusive to GIS and used in many other industries to move data from one place to another (e.g. Saving data in Excel).
 
 - **Components:**
   - A CSV file typically includes:
