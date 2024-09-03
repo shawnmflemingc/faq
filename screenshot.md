@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Workflow for Recording and Documenting Software Steps Using Screenshots in Word](#workflow-for-recording-and-documenting-software-steps-using-screenshots)
+1. [General Steps](#general-steps)
     - [1. Prepare Your Environment](#1-prepare-your-environment)
     - [2. Take Screenshots of Each Step](#2-take-screenshots-of-each-step)
     - [3. Insert Screenshots into Word](#3-insert-screenshots-into-word)
