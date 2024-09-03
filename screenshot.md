@@ -100,9 +100,9 @@
    - **Print If Needed:**
      - If a physical copy is needed, print the document ensuring that all screenshots are clear and readable on paper.
 
----
-
 This workflow should help you efficiently record, document, and share software steps using screenshots in Word, ensuring that the process can be easily repeated later. Now learn the different ways to take screen shots on the various platforms:
+
+---
 
 ## Windows 10 Saving What is on your Screen
 
