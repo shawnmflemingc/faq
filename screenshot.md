@@ -1,4 +1,4 @@
-# Lesson: How to Take Screenshots in Windows 10 (Windows 11 is below)
+# Windows 10 Saving What is on your Screen
 
 Taking screenshots is a valuable skill for documenting steps when you're learning something new or troubleshooting a problem. Here's a simple guide on how to do it first using Windows 10, then below shown for Windows 11.
 
@@ -47,7 +47,9 @@ Taking screenshots is a valuable skill for documenting steps when you're learnin
    - **Share Screenshots Easily:**
      - Screenshots can be easily attached to emails, documents, or shared directly in chats to help others follow your steps.
 
-# Windows 11 Changes to Screen Shots
+---
+
+# Windows 11 Screen Saving
 
 Windows 11 introduces some changes and enhancements for taking screenshots, though many of the methods from Windows 10 remain the same. Here’s what changes in Windows 11:
 
@@ -88,3 +90,66 @@ Windows 11 introduces some changes and enhancements for taking screenshots, thou
 ## 7. **Auto-Saving Screenshots:**
    - **Snipping Tool Behavior:**
      - When you take a snip, the image will still be copied to your clipboard by default, but you can choose to automatically save the snip to a location of your choice by selecting "Save As" after capturing.
+    
+# **For iOS (iPhone or iPad)**
+
+## **Taking a Screenshot**
+1. **For iPhones with Face ID (iPhone X and newer):**
+   - Press the `Side button` (on the right side) and the `Volume Up button` simultaneously.
+   - Quickly release both buttons. The screen will flash, and you'll hear a camera shutter sound (if the sound is on).
+   - A thumbnail of the screenshot will appear in the bottom-left corner of the screen. Tap it to edit or share, or swipe it away to dismiss.
+
+2. **For iPhones with a Home Button (iPhone 8 and earlier):**
+   - Press the `Home button` and the `Side button` (or Top button for older models) simultaneously.
+   - Quickly release both buttons. The screen will flash, and you'll hear a camera shutter sound.
+   - A thumbnail of the screenshot will appear in the bottom-left corner of the screen.
+
+3. **Accessing Screenshots:**
+   - Screenshots are automatically saved to the "Screenshots" album in the Photos app.
+
+## **Screen Recording**
+1. **Adding Screen Recording to Control Center:**
+   - Go to `Settings > Control Center`.
+   - Scroll down and tap the green `+` button next to "Screen Recording" to add it to your Control Center.
+
+2. **Recording Your Screen:**
+   - Open the Control Center:
+     - On iPhones with Face ID, swipe down from the top-right corner.
+     - On iPhones with a Home Button, swipe up from the bottom of the screen.
+   - Tap the `Screen Recording` button (a circle with a dot inside). A countdown will begin, and then the recording starts.
+   - To stop recording, open the Control Center again and tap the red `Screen Recording` button or tap the red status bar at the top and select "Stop."
+
+3. **Accessing Screen Recordings:**
+   - Screen recordings are automatically saved to the "Videos" album in the Photos app.
+
+---
+
+# **For Android**
+
+## **Taking a Screenshot**
+1. **Using Buttons:**
+   - Press the `Power button` and the `Volume Down button` simultaneously.
+   - Hold them for a moment until you see the screen flash, indicating a screenshot has been taken.
+   - A preview of the screenshot will appear at the bottom or top of the screen, depending on your device.
+
+2. **Using Gestures (Samsung, Huawei, etc.):**
+   - On some Android devices, you can swipe across the screen with your hand to take a screenshot. This feature may need to be enabled in `Settings > Advanced Features > Motions and Gestures`.
+
+3. **Accessing Screenshots:**
+   - Screenshots are saved in the "Screenshots" album in your Photos or Gallery app.
+
+## **Screen Recording**
+1. **Built-In Screen Recorder:**
+   - Many Android devices have a built-in screen recorder.
+   - Swipe down from the top of the screen to open the Quick Settings menu.
+   - Look for the `Screen Recorder` icon (you may need to swipe left or edit the Quick Settings to find it). Tap it to start recording.
+   - Choose whether you want to record audio and show touches on the screen, then tap `Start`.
+   - To stop recording, swipe down again and tap the `Stop` button in the notification panel.
+
+2. **Using Third-Party Apps:**
+   - If your device doesn't have a built-in screen recorder, you can download a screen recording app from the Google Play Store, like AZ Screen Recorder or Mobizen.
+   - Open the app, follow the on-screen instructions, and start recording.
+
+3. **Accessing Screen Recordings:**
+   - Screen recordings are usually saved in the "Videos" album in your Photos or Gallery app.
+
