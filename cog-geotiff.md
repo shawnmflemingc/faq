@@ -1,6 +1,8 @@
+# Cloud-optmized GeoTIFF (COG) versus a plain GeoTIFF
+
 A normal GeoTIFF and a Cloud-Optimized GeoTIFF (COG) share the same basic file structure for storing geospatial raster data, but they differ in organization and optimization for certain use cases, especially when it comes to access patterns and performance in cloud environments. Here’s an overview of each and the main differences between them:
 
-### Normal GeoTIFF
+## Normal GeoTIFF
 
 A standard GeoTIFF is a raster file format that stores geospatial data along with metadata in a tagged format, allowing software to interpret spatial properties (like coordinates, projections, and transformations) alongside the pixel data. These files are versatile and commonly used across GIS software for local and desktop applications.
 
@@ -9,7 +11,7 @@ Key points:
 - **Access Patterns**: Not optimized for partial data access. When hosted in the cloud, fetching small sections can be slow since it might require downloading large file sections.
 - **Metadata**: Stores spatial metadata such as coordinate reference system (CRS), pixel scale, and bounding box.
 
-### Cloud-Optimized GeoTIFF (COG)
+## Cloud-Optimized GeoTIFF (COG)
 
 A Cloud-Optimized GeoTIFF is an adaptation of the GeoTIFF format designed for efficient access and streaming directly from cloud storage without requiring a full file download. COGs achieve this through specific internal file structures that optimize partial access.
 
@@ -19,7 +21,7 @@ Key optimizations:
 - **Byte Range Requests**: By structuring data in tiles and including overviews, COGs allow for byte-range requests. This enables applications to fetch just the required bytes from a file stored in a cloud object storage system (e.g., AWS S3).
 - **Compatibility**: COGs are still valid GeoTIFFs, so most software that supports GeoTIFFs can read COGs. However, not all software can leverage the COG optimizations, especially those without cloud access features.
 
-### Summary of Differences
+## Summary of Differences
 
 | Feature                   | Normal GeoTIFF                         | Cloud-Optimized GeoTIFF (COG)          |
 |---------------------------|----------------------------------------|----------------------------------------|
